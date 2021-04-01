@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogSky.Web", "BlogSky.Web\BlogSky.Web.csproj", "{A6F706D9-D9E1-4C7D-A834-761C050FF264}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogSky.Web", "BlogSky.Web\BlogSky.Web.csproj", "{A6F706D9-D9E1-4C7D-A834-761C050FF264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogSky.Models", "BlogSky.Models\BlogSky.Models.csproj", "{FB1A2FE2-B61F-4F8E-B183-52E9DC1A770E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogSky.Repository", "BlogSky.Repository\BlogSky.Repository.csproj", "{0C47972C-7E31-4B60-A335-D4A558A6AFA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{A6F706D9-D9E1-4C7D-A834-761C050FF264}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6F706D9-D9E1-4C7D-A834-761C050FF264}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6F706D9-D9E1-4C7D-A834-761C050FF264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB1A2FE2-B61F-4F8E-B183-52E9DC1A770E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB1A2FE2-B61F-4F8E-B183-52E9DC1A770E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB1A2FE2-B61F-4F8E-B183-52E9DC1A770E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB1A2FE2-B61F-4F8E-B183-52E9DC1A770E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C47972C-7E31-4B60-A335-D4A558A6AFA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C47972C-7E31-4B60-A335-D4A558A6AFA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C47972C-7E31-4B60-A335-D4A558A6AFA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C47972C-7E31-4B60-A335-D4A558A6AFA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
