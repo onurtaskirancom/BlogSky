@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogSky.Models", "BlogSky.M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogSky.Repository", "BlogSky.Repository\BlogSky.Repository.csproj", "{0C47972C-7E31-4B60-A335-D4A558A6AFA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogSky.Identity", "BlogSky.Identity\BlogSky.Identity.csproj", "{23918293-6A46-4178-BCF5-FE6E34E8188D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogSky.Identity", "BlogSky.Identity\BlogSky.Identity.csproj", "{23918293-6A46-4178-BCF5-FE6E34E8188D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogSky.Services", "BlogSky.Services\BlogSky.Services.csproj", "{07AE77B7-8ADC-4B37-9AB1-596D148470EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{23918293-6A46-4178-BCF5-FE6E34E8188D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23918293-6A46-4178-BCF5-FE6E34E8188D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23918293-6A46-4178-BCF5-FE6E34E8188D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07AE77B7-8ADC-4B37-9AB1-596D148470EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07AE77B7-8ADC-4B37-9AB1-596D148470EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07AE77B7-8ADC-4B37-9AB1-596D148470EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07AE77B7-8ADC-4B37-9AB1-596D148470EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
