@@ -94,7 +94,7 @@ namespace BlogSky.Repository
                     "Photo_Insert",
                     new { 
                         Photo = dataTable.AsTableValuedParameter("dbo.PhotoType"),
-                    ApplicationUserId = applicationUserId
+                        ApplicationUserId = applicationUserId
                     },
                     commandType: CommandType.StoredProcedure);
             }
