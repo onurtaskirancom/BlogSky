@@ -3,9 +3,9 @@ import { Injectable } from '@angular/core';
 import { map } from 'rxjs/operators';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { environment } from 'src/environments/environment';
-import { ApplicationUserCreate } from '../models/account/application-user-create.model';
-import { ApplicationUserLogin } from '../models/account/application-user-login.model';
-import { ApplicationUser } from '../models/account/application-user.model';
+import { ApplicationUserCreate } from '../models/account/application-user-create.models';
+import { ApplicationUserLogin } from '../models/account/application-user-login-model';
+import { ApplicationUser } from '../models/account/application-user-model';
 
 
 
