@@ -32,7 +32,7 @@ export class CommentsComponent implements OnInit {
   }
 
   cancelDeleteConfirm(comment: BlogCommentViewModel) {
-    comment.deleteConfirm = false,
+    comment.deleteConfirm = false;
   }
 
   deleteConfirm(comment: BlogCommentViewModel, comments: BlogCommentViewModel[]) {
