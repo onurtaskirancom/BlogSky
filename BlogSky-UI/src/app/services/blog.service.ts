@@ -22,7 +22,7 @@ export class BlogService {
 
   getAll(blogPaging: BlogPaging) : Observable<PagedResult<Blog>> {
     return this.http.get<PagedResult<Blog>>(
-      `${environment.webApi}/Blog?Page${blogPaging.page}&PageSize=${blogPaging.pageSize}`);
+      `${environment.webApi}/Blog?Page=${blogPaging.page}&PageSize=${blogPaging.pageSize}`);
   }
 
   get(blogId: number) : Observable<Blog> {
